@@ -2,6 +2,8 @@
 
 app for vue(vue + vue-router + weui + es6 + webpack)
 
+UI 结合多个开源项目实现（Framework7 + AmazeUI touch + bootstrap4 + SUI mobile）
+
 使用软链接 ln –s 源文件 目标文件
 
 ```

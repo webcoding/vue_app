@@ -1,15 +1,12 @@
 <style lang="sass">
 
-@import "../_styles/components/_list-block";
+// @import "../_styles/components/list-block";
 
 </style>
 
-// 结构应该内容部分可传入
-// 结构用于场景，太过复杂，应该只考虑最简化的模型，通过组合来实现
-
 <template>
 
-<div class="_list-block">
+<div class="plus-list-block _list-block">
   <ul class="item-line">
     <li v-for="item in items">
       <a class="item item-link item-line" v-link="item.link">

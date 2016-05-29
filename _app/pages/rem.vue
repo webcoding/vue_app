@@ -1,10 +1,13 @@
 <template>
-  <div class="page article">
-    <div class="hd">
-      <h1 class="page_title">使用 rem</h1>
-    </div>
-    <div class="bd">
-      <article class="page_content">
+  <div class="page">
+    <plus-navbar type="fixed">
+      <span slot="left">Back</span>
+      <span slot="center">H5_Plus</span>
+      <span slot="right">Right</span>
+    </plus-navbar>
+    <plus-container>
+      <div class="content-block-title">使用 rem</div>
+      <div class="content-block">
         <!-- <h1>大标题</h1> -->
         <!-- <h2 class="title">关于 rem</h2> -->
         <section>
@@ -20,19 +23,19 @@
           <p>使用 rem 可以实现页面布局的尺寸对应于唯一标准，可实现缩放时，布局字体等，全等比缩放而不会导致布局错乱</p>
           <p>目前实现，建议以 iphone6 为基准参考。而 rem 的记住，建议使用1rem = 20px 或者 16px，但要求所有使用位置，引用函数 pxrem 转px 值为 rem 使用</p>
         </section>
-      </article>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'RemView'
+  name: 'rem'
 }
 </script>
 
 <style lang="less">
-@import "../../src/style/base/fn";
+// @import "../../src/style/base/fn";
 
 // .weui_article {
 //     padding: 20px 15px;
